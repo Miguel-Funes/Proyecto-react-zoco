@@ -1,0 +1,41 @@
+.nav-container {
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    border-bottom: 2px solid rgb(239, 184, 3);
+}
+
+.navbar-logo {
+    justify-self: start;
+    margin-left: 20px;
+    color: black;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+
+.nav-menu {
+    float: left;
+    margin-right: 20px;
+}
+.nav-item {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+
+.nav-item a{
+    color: black;
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}

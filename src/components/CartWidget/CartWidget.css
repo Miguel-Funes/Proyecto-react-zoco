@@ -1,0 +1,9 @@
+.seeCarrito {
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    font-size: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
