@@ -1,9 +1,19 @@
 .seeCarrito {
     display: flex;
     justify-content: right;
-    align-content: center;
+    align-items: center;
     font-size: 25px;
     margin-right: 20px;
     cursor: pointer;
     text-decoration: none;
+}
+
+.contador {
+    color: rgb(239, 184, 3);
+    background-color: black;
+    border-radius: 100px;
+    font-size: 15px;
+    width: 20px;
+    cursor: pointer;
+    text-align: center;
 }
