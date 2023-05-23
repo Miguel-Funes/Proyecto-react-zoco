@@ -1,3 +1,4 @@
+import CartWidget from "../CartWidget/CartWidget";
 import "./Navbar.css";
 const Navbar = () => {
     return (
@@ -16,6 +17,7 @@ const Navbar = () => {
                     <a href="preguntas.html">Preguntas freguentes</a>
                 </li>
             </ul>
+            <CartWidget />
         </div>
     );
 };
