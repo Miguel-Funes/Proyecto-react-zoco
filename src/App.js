@@ -1,13 +1,19 @@
 import Navbar from "./components/Navbar/Navbar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import DataProvider from "./components/Context/DataContext";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Products from "./components/Products/Products";
 const App = () => {
     return (
-        <>
-            <Navbar />
-            <ItemListContainer 
-            greeting="Bienvenido a Zoco Minimarket!"
-            />
-        </>
+        <DataProvider>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Navbar />} />
+                    <Route path="/container" element={<ItemListContainer />} />
+                    <Route path="/products" element={<Products />} />
+                </Routes>
+            </BrowserRouter>
+        </DataProvider>
     );
 };
 
