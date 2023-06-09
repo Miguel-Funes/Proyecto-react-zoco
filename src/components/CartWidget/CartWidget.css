@@ -4,9 +4,11 @@
     align-items: center;
     font-size: 25px;
     margin-right: 20px;
-    margin-top: 4vh;
+    margin-top: 60px;
     cursor: pointer;
     text-decoration: none;
+    background-color: white;
+    z-index: 1;
 }
 
 .contador {

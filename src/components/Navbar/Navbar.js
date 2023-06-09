@@ -6,6 +6,7 @@ const Navbar = () => {
         <div className="nav-container">
             <nav className="navbar">
                 <h1 className="navbar-logo">Zoco minimarket</h1>
+                <CartWidget />
             </nav>
             <ul class="nav-menu"> 
                 <li class="nav-item">
@@ -18,8 +19,8 @@ const Navbar = () => {
                     <a href="preguntas.html">Preguntas freguentes</a>
                 </li>
             </ul>
-            <CartWidget />
         </div>
+    
     );
 };
 

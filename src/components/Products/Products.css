@@ -1,0 +1,48 @@
+.cardContainer {
+    display: flex;
+    justify-Content: space-around;
+    align-Items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 30px 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(58, 57, 57);
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    font-family: arial;
+    padding: 10px;
+}
+
+.photo {
+    width: 90%;
+    height: 240px;
+    text-align: center;
+}
+.text {
+    padding: 10px;
+    font-size: 22px;
+}
+.price {
+    color: rgb(3, 132, 3);
+    font-size: 20px;
+}
+
+.card button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    outline: 0;
+    padding: 10px;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    width: 60%;
+    font-size: 16px;
+}
+.card button:hover {
+    background-color: rgb(239, 184, 3);
+}
